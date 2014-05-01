@@ -21,10 +21,10 @@ function create() {
 
     //  In this example we'll create 4 specific keys (up, down, left, right) and monitor them in our update function
 
-    upKey = game.input.keyboard.addKey(Phaser.Keyboard.UP);
-    downKey = game.input.keyboard.addKey(Phaser.Keyboard.DOWN);
-    leftKey = game.input.keyboard.addKey(Phaser.Keyboard.LEFT);
-    rightKey = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
+    upKey = game.input.keyboard.addKey(Phaser.Keyboard.W);
+    downKey = game.input.keyboard.addKey(Phaser.Keyboard.S);
+    leftKey = game.input.keyboard.addKey(Phaser.Keyboard.A);
+    rightKey = game.input.keyboard.addKey(Phaser.Keyboard.D);
 
     //wKey = game.input.keyboard.addKey(Phaser.Keyboard.w);
 
